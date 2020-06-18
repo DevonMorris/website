@@ -12,7 +12,7 @@ main {
 }
 
 ::selection {
-  background: #d3869b;
+  background: #808080;
 }
 
 body {
@@ -27,8 +27,8 @@ pre {
 }
 
 a, a:active, a:visited {
-  color: #b16286;
-  background-color: #1d2021;
+  color: #282828;
+  background-color: #282828;
 }
 
 h1, h2, h3, h4, h5 {
