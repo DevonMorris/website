@@ -7,7 +7,8 @@ main {
 
 @media only screen and (max-device-width: 736px) {
   main {
-    padding: 0rem;
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
   }
 }
 
