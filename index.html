@@ -3,15 +3,17 @@
 <style>
 main {
   font-family: monospace, monospace;
-  max-width: 38rem;
-  padding: 2rem;
-  margin: auto;
+  padding: 0;
+  margin: 0;
+  overflow: auto;
+  padding-bottom: 2.5rem;
 }
 
 @media only screen and (max-device-width: 736px) {
   main {
     #primary { width:100%; }
     #secondary { width:100%; margin:0; border:none; }
+    #about-me { max-width:100%; }
   }
 }
 
@@ -19,9 +21,14 @@ main {
   background: #808080;
 }
 
-body {
+html, body {
+  height: 100%;
   background: #282828;
   color:      #ebdbb2;
+}
+
+#wrap {
+  min-height: 100%;
 }
 
 pre {
@@ -45,9 +52,6 @@ blockquote {
   padding: 0.5em 10px;
 }
 
-footer {
-  align: center;
-}
 h1 {
   font-family: Courier New;
   font-weight: lighter;
@@ -76,8 +80,41 @@ h2 {
   filter: brightness(50%) sepia(1) hue-rotate(5deg) saturate(75.5%) brightness(129.8%);
 }
 
+.logo:hover {
+}
+
 .circle-image {
   border-radius: 50%;
+}
+
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+#content-wrap {
+  padding-bottom: 2.5rem;    /* Footer height */
+}
+
+#footer {
+  align: center;
+  font-size: 0.5rem;
+  position: relative;
+  margin-top: -2.5rem;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+}
+
+#about-me {
+  font-size: 1.1rem;
+  line-height: 1.5;
+  max-width: 50%;
+  margin: auto;
+}
+
+#footer-text {
+  font-size: 0.8rem;
 }
 </style>
 
@@ -94,11 +131,17 @@ h2 {
 </head>
 <html>
 
+<body>
 <img src="images/profile.jpeg" class="medium-image circle-image" alt="Devon Morris on a tractor ride">
 
 <div>
 <h1>Devon Morris</h1>
 <h2>Autonomy Software Engineer</h2>
+</div>
+
+
+<div align="center" id="about-me">
+  <p>Sofware minimalism and craftmanship is my thing. I love linux, vim and the open-source movement. My goal is to create simple, generic and highly-flexible systems to solve the biggest problems in autonomy and robotics.</p>
 </div>
 
 <br>
@@ -115,7 +158,14 @@ h2 {
 <a href="https://git.devonmorris.dev">
   <img src="./images/Git-Icon-White.png" title="Git" class="logo" alt="DevonMorris Git Repo">
 </a>
-<div>
 
+<div>
+<body>
+
+<br>
+
+<footer>
+  <p id="footer-text">My website is made from scratch, built to last, and shared without restrictions</p>
+</footer>
 
 </html>
