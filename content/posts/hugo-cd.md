@@ -92,9 +92,9 @@ rsync -av --delete public/ $TARGET
 This script should be pretty self-explanatory, but at a high-level it performs
 the following
 
-* Sets error flag to exit script if any command fails
-  * This will prevent blowing away your website if it fails to generate
-  * But also, shame on you if you push code that doesn't build
+* Sets error flag to exit script if any command fails[^error]
 * Checks out the repository and submodules into a clean temporary directory
 * Attemps to generate the website
 * Deploys the website via `rsync`
+
+[^error]: This will prevent blowing away your website if it fails to generate. But also, shame on you if you push code that doesn’t build
