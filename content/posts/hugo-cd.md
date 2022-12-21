@@ -86,7 +86,7 @@ git --work-tree=$TEMP --git-dir=$REPO submodule update --init --recursive
 hugo
 
 # Deploy website
-rsync -av --delete public $TARGET
+rsync -av --delete public/ $TARGET
 ```
 
 This script should be pretty self-explanatory, but at a high-level it performs
