@@ -2,7 +2,7 @@
 draft = false
 date = 2022-12-21T13:10:26-05:00
 title = "Cheap Continuous Deployment for Hugo"
-description = ""
+description = "Cheap Continuous Deployment for Hugo"
 slug = ""
 authors = []
 tags = ['website']
