@@ -6,7 +6,7 @@ defaultcontentlanguage = "en"
 
 paginate = 20
 
-pygmentsstyle = "bw"
+pygmentsstyle = "emacs"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 

@@ -3,7 +3,7 @@ title: "Hugo"
 date: 2022-12-21T10:46:49-05:00
 draft: false
 description: ""
-tags: []
+tags: ['website']
 categories: []
 externalLink: ""
 series: []
