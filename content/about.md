@@ -8,7 +8,7 @@ draft: false
 
 My life mission is to create simple, generic, and highly-flexible systems to solve the biggest problems in autonomy and robotics.
 
-I have broad background in mathematics, electrical engineering and computer science that has put me on the path to achieve this mission.
+I have a broad background in mathematics, electrical engineering and computer science that has put me on the path to achieve this mission.
 
 I currently work at [Tangram Vision](https://www.tangramvision.com/) as a perception engineer.
 
