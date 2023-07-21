@@ -49,10 +49,10 @@ pygmentscodefencesguesssyntax = true
   weight = 2
   url = "https://gitlab.com/DevonMorris/"
 [[params.social]]
-  name = "Twitter"
-  icon = "fa fa-twitter fa-2x"
+  name = "Mastodon"
+  icon = "fa fa-mastodon fa-2x"
   weight = 3
-  url = "https://twitter.com/TDevonMorris/"
+  url = "https://hachyderm.io/@devonmorris"
 
 # Menu links
 [[menu.main]]
