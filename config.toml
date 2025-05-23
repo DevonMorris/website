@@ -15,7 +15,7 @@ pygmentscodefencesguesssyntax = true
   info = "Tracking, Fusion, Calibration | Chicken Sandwiches"
   description = "Devon Morris's Personal Website"
   keywords = "blog,developer,personal"
-  avatarurl = "images/prof_square.jpg"
+  avatarurl = "images/prof_square.png"
 
   favicon_32 = "images/favicon-32x32.png"
   favicon_16 = "images/favicon-16x16.png"
